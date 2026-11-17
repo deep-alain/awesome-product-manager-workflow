@@ -44,8 +44,8 @@
 
 | 项目 | 类型 | Star 快照 | 最近推送（UTC） | 用途与采用边界 |
 | --- | --- | ---: | --- | --- |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | Skills | 141,854 | 2026-11-17 | 产品方向、设计、工程评审与发布工作流。角色视角是辅助评审，不替代公司审批权限。 |
-| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | Skills | 28,080 | 2026-11-08 | 产品发现、策略、PRD、增长的 AI 工作流。按任务选用单个技能；框架输出仍需真实证据。 |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | Skills | 141,859 | 2026-11-17 | 产品方向、设计、工程评审与发布工作流。角色视角是辅助评审，不替代公司审批权限。 |
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | Skills | 28,081 | 2026-11-08 | 产品发现、策略、PRD、增长的 AI 工作流。按任务选用单个技能；框架输出仍需真实证据。 |
 | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) | Skills | 8,051 | 2026-11-13 | PM 方法、访谈、需求与优先级技能。先检查输入证据和 Agent 适配。 |
 | [phuryn/product-engineering](https://github.com/phuryn/product-engineering) | Skills | 615 | 2026-11-16 | 将需求推进至工程交付与验证。核对与 pm-skills 的迁移关系；不自动接受生成结果。 |
 | [menkesu/awesome-pm-skills](https://github.com/menkesu/awesome-pm-skills) | Skills | 460 | 2026-10-06 | 25 个产品管理工作流，从定价、PRD 到研究与决策。按具体工作流选用；来源经验不等于当前项目的用户证据。 |
@@ -57,7 +57,7 @@
 
 | 项目 | 类型 | Star 快照 | 最近推送（UTC） | 用途与采用边界 |
 | --- | --- | ---: | --- | --- |
-| [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 可运行软件 | 40,015 | 2026-11-17 | 客服对话、客户反馈与支持闭环。客户支持系统不等于研究洞察，仍需归因和分析。README 称 MIT；API 未识别单一 SPDX，需核对各目录。 |
+| [chatwoot/chatwoot](https://github.com/chatwoot/chatwoot) | 可运行软件 | 40,016 | 2026-11-17 | 客服对话、客户反馈与支持闭环。客户支持系统不等于研究洞察，仍需归因和分析。README 称 MIT；API 未识别单一 SPDX，需核对各目录。 |
 | [formbricks/formbricks](https://github.com/formbricks/formbricks) | 可运行软件 | 13,248 | 2026-11-17 | 站内调研、问卷与用户反馈。需要部署或服务配置；涉及用户数据。README 称核心为 AGPLv3，部署与扩展仍核对原许可。 |
 | [baptisteArno/typebot.io](https://github.com/baptisteArno/typebot.io) | 可运行软件 | 10,633 | 2026-11-07 | 对话表单与需求收集。对话形式应服务问题；注意许可证和采集信息。README 明确称 Functional Source License；属于 Fair Source，不能按 MIT 理解。 |
 
@@ -79,12 +79,12 @@
 
 | 项目 | 类型 | Star 快照 | 最近推送（UTC） | 用途与采用边界 |
 | --- | --- | ---: | --- | --- |
-| [github/spec-kit](https://github.com/github/spec-kit) | 开发工作流 | 150,175 | 2026-11-16 | 规范驱动的需求、计划和开发任务。适合需求到工程；对小改动控制文档负担。 |
+| [github/spec-kit](https://github.com/github/spec-kit) | 开发工作流 | 150,180 | 2026-11-16 | 规范驱动的需求、计划和开发任务。适合需求到工程；对小改动控制文档负担。 |
 | [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) | 图示工具 | 91,132 | 2026-11-17 | 用户流程、系统关系与状态图。图需要明确真实来源和更新责任。 |
-| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 可运行软件 | 79,064 | 2026-11-15 | 项目知识和文档协作。适合知识管理；不能把文档存在当需求已评审。 |
-| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 开发工作流 | 75,037 | 2026-11-17 | 以变更规范组织实现和验收。先适配既有流程；避免规范与实现脱节。 |
+| [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | 可运行软件 | 79,065 | 2026-11-15 | 项目知识和文档协作。适合知识管理；不能把文档存在当需求已评审。 |
+| [Fission-AI/OpenSpec](https://github.com/Fission-AI/OpenSpec) | 开发工作流 | 75,039 | 2026-11-17 | 以变更规范组织实现和验收。先适配既有流程；避免规范与实现脱节。 |
 | [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) | 可运行软件 | 74,595 | 2026-11-17 | 文档、白板和知识协作。明确协作与自托管功能边界。README 区分社区版等许可范围，不能把仓库所有内容统一视为 MIT。 |
-| [outline/outline](https://github.com/outline/outline) | 可运行软件 | 41,280 | 2026-11-16 | 协作知识库与产品文档。需账号、部署及权限配置，核对源可用许可证。README 明确称 BSL 1.1。 |
+| [outline/outline](https://github.com/outline/outline) | 可运行软件 | 41,281 | 2026-11-16 | 协作知识库与产品文档。需账号、部署及权限配置，核对源可用许可证。README 明确称 BSL 1.1。 |
 
 <a id="stage-design"></a>
 ## 05 UI/UX、原型与设计交付
@@ -93,12 +93,12 @@
 
 | 项目 | 类型 | Star 快照 | 最近推送（UTC） | 用途与采用边界 |
 | --- | --- | ---: | --- | --- |
-| [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 可运行软件 | 135,843 | 2026-11-17 | 流程草图、讨论白板和低保真方案。草图不证明可用性或已实现。 |
-| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 组件库 | 128,376 | 2026-11-17 | 实现界面基础组件。复用需要的组件，避免整套示例变功能需求。 |
-| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 视觉规范合集 | 127,881 | 2026-10-28 | 按语义 token 约束视觉生成。营销视觉与实际产品工作流分开选择。 |
+| [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) | 可运行软件 | 135,844 | 2026-11-17 | 流程草图、讨论白板和低保真方案。草图不证明可用性或已实现。 |
+| [shadcn-ui/ui](https://github.com/shadcn-ui/ui) | 组件库 | 128,379 | 2026-11-17 | 实现界面基础组件。复用需要的组件，避免整套示例变功能需求。 |
+| [VoltAgent/awesome-design-md](https://github.com/VoltAgent/awesome-design-md) | 视觉规范合集 | 127,882 | 2026-10-28 | 按语义 token 约束视觉生成。营销视觉与实际产品工作流分开选择。 |
 | [ant-design/ant-design](https://github.com/ant-design/ant-design) | 组件库 | 100,244 | 2026-11-17 | 企业后台与复杂数据交互。示例工具栏不等于首版范围。 |
 | [storybookjs/storybook](https://github.com/storybookjs/storybook) | 开发工具 | 91,601 | 2026-11-17 | 组件状态、视觉与设计交付评审。围绕实际组件；不默认启动全套设计系统工程。 |
-| [penpot/penpot](https://github.com/penpot/penpot) | 可运行软件 | 62,454 | 2026-11-17 | 界面设计、原型、协作与交付。核对设计稿与真实交互契约。 |
+| [penpot/penpot](https://github.com/penpot/penpot) | 可运行软件 | 62,455 | 2026-11-17 | 界面设计、原型、协作与交付。核对设计稿与真实交互契约。 |
 | [tldraw/tldraw](https://github.com/tldraw/tldraw) | SDK | 51,450 | 2026-11-17 | 白板与视觉协作应用能力。重点核对商业使用和 SDK 许可证。README 称 SDK 生产使用需要许可证密钥，部分 starter kits 单独为 MIT。 |
 | [google-labs-code/design.md](https://github.com/google-labs-code/design.md) | 规范与工具 | 28,911 | 2026-11-06 | 以 token 和理由描述视觉身份。格式校验不证明产品需求或交互可用性。 |
 | [carbon-design-system/carbon](https://github.com/carbon-design-system/carbon) | 设计系统 | 9,628 | 2026-11-17 | 企业产品组件、交互与可访问性。检查宿主设计语言与许可证。 |
@@ -112,7 +112,7 @@
 | 项目 | 类型 | Star 快照 | 最近推送（UTC） | 用途与采用边界 |
 | --- | --- | ---: | --- | --- |
 | [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb) | 可运行软件 | 40,334 | 2026-11-13 | 数据结构与关系评审。ER 图仍需工程确认与迁移验证。 |
-| [docusealco/docuseal](https://github.com/docusealco/docuseal) | 可运行软件 | 19,059 | 2026-11-16 | 需要正式签署时的审批文档。电子签署不替代产品决策；核对适用法律和部署。README 指出 AGPLv3 外还有附加条款。 |
+| [docusealco/docuseal](https://github.com/docusealco/docuseal) | 可运行软件 | 19,060 | 2026-11-16 | 需要正式签署时的审批文档。电子签署不替代产品决策；核对适用法律和部署。README 指出 AGPLv3 外还有附加条款。 |
 | [architecture-decision-record/architecture-decision-record](https://github.com/architecture-decision-record/architecture-decision-record) | 决策模板 | 17,476 | 2026-11-16 | 记录架构决策、备选与后果。选短模板，保留决策责任与变更理由。 |
 | [plantuml/plantuml](https://github.com/plantuml/plantuml) | 图示工具 | 13,422 | 2026-11-17 | 技术评审的时序、组件和部署图。用于沟通真实契约，避免无依据架构。 |
 | [rust-lang/rfcs](https://github.com/rust-lang/rfcs) | RFC 实例 | 6,643 | 2026-11-14 | 提案、讨论、采纳与追踪的真实流程。学习机制，避免复制语言治理的全部审批负担。 |
@@ -129,7 +129,7 @@
 | 项目 | 类型 | Star 快照 | 最近推送（UTC） | 用途与采用边界 |
 | --- | --- | ---: | --- | --- |
 | [makeplane/plane](https://github.com/makeplane/plane) | 可运行软件 | 62,549 | 2026-11-17 | 需求、任务、迭代与路线图协作。区分产品发现与项目进度；核对付费版边界。 |
-| [opf/openproject](https://github.com/opf/openproject) | 可运行软件 | 17,457 | 2026-11-17 | 项目计划、协作与组织级交付。较重，先核对流程与部署成本。 |
+| [opf/openproject](https://github.com/opf/openproject) | 可运行软件 | 17,458 | 2026-11-17 | 项目计划、协作与组织级交付。较重，先核对流程与部署成本。 |
 | [taigaio/taiga-docker](https://github.com/taigaio/taiga-docker) | 可运行软件 | 2,177 | 2025-10-13 | 敏捷任务、看板与迭代。明确看板状态及完成定义，避免流程装饰。 |
 
 <a id="stage-delivery"></a>
@@ -150,7 +150,7 @@
 
 | 项目 | 类型 | Star 快照 | 最近推送（UTC） | 用途与采用边界 |
 | --- | --- | ---: | --- | --- |
-| [microsoft/playwright](https://github.com/microsoft/playwright) | 测试框架 | 100,374 | 2026-11-17 | 核心路径与浏览器端到端验收。测试实际用户结果，不只检查按钮是否出现。 |
+| [microsoft/playwright](https://github.com/microsoft/playwright) | 测试框架 | 100,375 | 2026-11-17 | 核心路径与浏览器端到端验收。测试实际用户结果，不只检查按钮是否出现。 |
 | [vitest-dev/vitest](https://github.com/vitest-dev/vitest) | 测试框架 | 17,383 | 2026-11-17 | 业务规则和组件逻辑回归。选择重要行为，避免重复实现细节。 |
 | [dequelabs/axe-core](https://github.com/dequelabs/axe-core) | 测试库 | 7,838 | 2026-11-16 | 自动检查可访问性问题。自动检测之外仍需键盘与辅助技术等适用验证。 |
 
@@ -184,7 +184,7 @@
 | --- | --- | ---: | --- | --- |
 | [apache/superset](https://github.com/apache/superset) | 可运行软件 | 75,538 | 2026-11-17 | 数据探索与企业分析。依赖数据接入与权限，图表不自动形成结论。 |
 | [metabase/metabase](https://github.com/metabase/metabase) | 可运行软件 | 50,374 | 2026-11-17 | 业务指标探索与产品复盘看板。统一指标口径；注意社区与商业功能差异。README 区分 AGPL 开源版与商业版。 |
-| [PostHog/posthog](https://github.com/PostHog/posthog) | 可运行软件 | 40,836 | 2026-11-17 | 产品事件、漏斗、回放与实验。埋点含义与隐私采集规则必须先明确。 |
+| [PostHog/posthog](https://github.com/PostHog/posthog) | 可运行软件 | 40,838 | 2026-11-17 | 产品事件、漏斗、回放与实验。埋点含义与隐私采集规则必须先明确。 |
 | [umami-software/umami](https://github.com/umami-software/umami) | 可运行软件 | 40,188 | 2026-11-17 | 网站流量和访问分析。流量指标不能直接当作产品价值验证。 |
 
 <a id="stage-retro"></a>

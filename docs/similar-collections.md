@@ -4,10 +4,10 @@
 
 | 仓库 | 类型 / 定位 | 主要覆盖 | 与本合集的关系 | Star / 最近推送 |
 | --- | --- | --- | --- | --- |
-| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 最接近 AI PM 方法与任务库 | 发现、策略、执行、分析、上市与增长 | 能力已很完整；本合集补上软件选型、许可、维护与公司评审的交叉映射。 | 28,080 / 2026-11-08 |
+| [phuryn/pm-skills](https://github.com/phuryn/pm-skills) | 最接近 AI PM 方法与任务库 | 发现、策略、执行、分析、上市与增长 | 能力已很完整；本合集补上软件选型、许可、维护与公司评审的交叉映射。 | 28,081 / 2026-11-08 |
 | [deanpeters/Product-Manager-Skills](https://github.com/deanpeters/Product-Manager-Skills) | 可复用 PM Skills | PRD、问题、利益相关方和 PM 工作产物 | 适合选用单个技能；不等于项目管理或原型软件。 | 8,051 / 2026-11-13 |
 | [menkesu/awesome-pm-skills](https://github.com/menkesu/awesome-pm-skills) | 名称叫 awesome，实际是可执行工作流集 | 25 个 PM 工作流和示例交付 | 按任务诊断与工作产物组织，值得直接参考，不能仅当链接列表。 | 460 / 2026-10-06 |
-| [garrytan/gstack](https://github.com/garrytan/gstack) | 角色化产品到工程评审与交付 | 方向、工程、设计、QA、安全、发布、复盘 | 公司评审最相关；代理角色仍不能替代真实责任人和授权。 | 141,854 / 2026-11-17 |
+| [garrytan/gstack](https://github.com/garrytan/gstack) | 角色化产品到工程评审与交付 | 方向、工程、设计、QA、安全、发布、复盘 | 公司评审最相关；代理角色仍不能替代真实责任人和授权。 | 141,859 / 2026-11-17 |
 | [dend/awesome-product-management](https://github.com/dend/awesome-product-management) | 传统 PM 综合资源索引 | 策略、发现、管理、学习与职业资料 | 适合广泛学习；本合集更强调 GitHub 上可引用的具体包与评审产物。 | 2,471 / 2026-11-07 |
 | [aza-ali/awesome-ai-product-management](https://github.com/aza-ali/awesome-ai-product-management) | AI PM 资源索引 | AI 产品实践、资料与工具 | 相近的检索入口；逐项覆盖与维护情况需要继续核验。 | 280 / 2026-05-24 |
 | [bjpcjp/awesome-product-management](https://github.com/bjpcjp/awesome-product-management) | 较早的 PM 个人资源集 | 产品管理长期积累与参考 | 最近推送较早，README 也提示部分链接老旧；作为历史参考。 | 206 / 2019-05-13 |
