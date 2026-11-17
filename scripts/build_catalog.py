@@ -9,6 +9,7 @@ def build():
     data=json.loads((ROOT/'catalog/repos.json').read_text(encoding='utf-8'))
     repos=data['repositories']; by_id={r['repo']:r for r in repos}
     lines=['# 产品经理工作流 GitHub 合集','',f"按产品经理从发现到复盘的工作流，收录 **{len(repos)} 个公开 GitHub 项目**：Agent Skills、可运行软件、组件/SDK、评审方法与资源索引。核验日期：**{data['checked_on']}**。",'', '每项都有用途、采用边界、累计 Star、近期推送和来源记录。已核验仓库元数据与 README；未逐个安装或部署。','', '“热门”以关注度快照和任务相关性呈现；累计 Star 不是近期 Trending，也不代表实际 PM 使用量。归档、迁移、研究预览和许可差异另行标明。','', '## 从这里开始','', '- [完整公司评审流程](docs/company-reviews.md)：八类决策点、参与者、输入、输出及对应仓库。','- [按实际工作组合工具](docs/integration.md)：个人验证、团队迭代、企业交付和效果分析。','- [同类仓库对照](docs/similar-collections.md)：哪些仓库已经很像，差别在哪里。','- [评审记录模板](templates/decision-review.md)：可按任务缩减。','- [机器可读目录](catalog/repos.json)：元数据、许可识别、README 来源与核验日期。','', '## 工作流导航','', '| 阶段 | 产出 / 用途 | 项目数 |','| --- | --- | --- |']
+    lines[4:4]=['**公开维护、持续更新热门工具。** [每周自动刷新仓库数据](.github/workflows/refresh-catalog.yml)，人工筛选新增项目与工作流分类；欢迎提交 Issue 补充工具或纠正信息。','']
     for sid,title,purpose in STAGES:
         count=sum(r['stage']==sid and not r['archived'] for r in repos)
         lines.append(f'| [{title}](#stage-{sid}) | {purpose} | {count} |')

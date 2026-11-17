@@ -1,0 +1,43 @@
+name: Refresh product management catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Monday 09:00 Asia/Shanghai (01:00 UTC).
+    - cron: '0 1 * * 1'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-product-management-catalog
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Refresh upstream repository metadata
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/refresh_metadata.py
+      - name: Rebuild categorized documentation
+        run: python scripts/build_catalog.py
+      - name: Verify catalog and links
+        run: python scripts/verify_catalog.py
+      - name: Commit updated snapshot when changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add catalog/repos.json README.md docs/similar-collections.md
+          if git diff --cached --quiet; then
+            echo 'Catalog snapshot unchanged.'
+          else
+            git commit -m 'Refresh product management repository snapshot'
+            git push
+          fi
